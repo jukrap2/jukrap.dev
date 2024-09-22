@@ -168,7 +168,7 @@ const IntroSection: React.FC = () => {
 					</p>
 					<p className="text-base leading-10 tracking-tight text-left text-foreground">
 						<span className="font-bold">
-							4. 마지막으로, 오류 찾기는 생각보다 재미있습니다
+							4. 마지막으로, 오류 찾기는 생각보다 재미있습니다.
 						</span>
 						<br />
 						의외로 도파민 분비가 많이 되는 느낌입니다. 또한, 다른 사람의 코드를 보며
