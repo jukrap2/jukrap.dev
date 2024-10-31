@@ -122,7 +122,7 @@ const IntroSection: React.FC = () => {
 					About Me
 				</h2>
 				<div className="flex items-start gap-8 w-fit h-fit pt-8 select-none">
-					<p className="font-medium text-lg leading-10 tracking-tight text-left text-foreground">
+					<p className="font-medium text-md leading-10 tracking-tight text-left text-foreground">
 						{typedText.split('【').map((part, index) => {
 							if (index === 0) return part;
 							const [highlightedText, rest] = part.split('】');
@@ -146,32 +146,41 @@ const IntroSection: React.FC = () => {
 							1. 과정과 결과, 둘 모두 중요하다고 생각합니다.
 						</span>
 						<br />
-						어느 한 쪽에 치중되는 것은 제대로 된 개발과는 거리가 멀다고 생각합니다. 이
-						때문에, 개발자라면 최대한 둘 모두를 가져가야 한다고 생각합니다.
+						<span className="inline-block w-1.5 h-1.5 bg-foreground rounded-full ml-0.5 mr-2 mb-1"></span>
+						DIVE 2024 해커톤에서 72시간이라는 짧은 시간 내에 완성도 높은 서비스를
+						구현하며 이를 입증했습니다. 구글 맵스 플랫폼 선정부터 기술 검증,
+						구현까지의 과정을 거치면서 수상이라는 결과를 이끌어냈습니다. 이렇듯 개발에
+						임할 때 항상 과정과 결과 모두를 중시하는 태도로 임하고 있습니다.
 					</p>
 					<p className="text-base leading-10 tracking-tight text-left text-foreground">
 						<span className="font-bold">
 							2. 재사용성이 높은 유연한 코드를 작성하고자 노력합니다.
 						</span>
 						<br />
-						코드도 줄이고, 작업량도 줄이는 핵심. 한편으로는 유연성과 지속가능한 코드가
-						바로 재사용성이 높은 코드이기에 이를 작성하고자 노력합니다. 최종적으로는
-						동료들에게 당당히 보여줄 수 있는 코드를 추구합니다.
+						<span className="inline-block w-1.5 h-1.5 bg-foreground rounded-full ml-0.5 mr-2 mb-1"></span>
+						잇집 프로젝트에서 합성 패턴을 적용한 Base 컴포넌트 설계와 Storybook을
+						활용한 컴포넌트 주도 개발로 재사용성과 유지보수성을 높였습니다. 이는 15명
+						규모 팀에서 일관된 UI/UX를 제공하는 핵심이 되었습니다.
 					</p>
 					<p className="text-base leading-10 tracking-tight text-left text-foreground">
 						<span className="font-bold">3. 커뮤니케이션의 중요성을 높게 봅니다.</span>
 						<br />
-						인간은 사회성의 동물! 그리고 저는 ENFJ입니다! 타인을 존중하며 이야기하는
-						것은 언제나 즐겁습니다. 또한, 다른 사람과 의견을 나누고 반영하는 과정은
-						개발의 폭을 넓히는 과정이라고 생각합니다. 그렇기에 커뮤니케이션은 언제나
-						저의 성장 양분입니다.
+						<span className="inline-block w-1.5 h-1.5 bg-foreground rounded-full ml-0.5 mr-2 mb-1"></span>
+						여러 프로젝트에서 디자이너, 백엔드 개발자들과 적극적으로 소통하며
+						협업했습니다. 특히 잇집에서는 15명 팀의 커뮤니케이션 체계를 구축해 업무
+						효율을 크게 향상시켰습니다. 개발이란 결국 사람과 사람 간의 상호작용임을
+						알기에, 소통을 최우선으로 여기고 있습니다.
 					</p>
 					<p className="text-base leading-10 tracking-tight text-left text-foreground">
 						<span className="font-bold">
-							4. 마지막으로, 오류 찾기는 생각보다 재미있습니다.
+							4. 마지막으로, 문제 해결 과정을 즐깁니다.
 						</span>
 						<br />
-						다른 사람의 코드를 보며 원리를 분석하고 감탄하는 것을 보람찬 과정으로 여깁니다.
+						<span className="inline-block w-1.5 h-1.5 bg-foreground rounded-full ml-0.5 mr-2 mb-1"></span>
+						자세선생 프로젝트에서 OpenCV에서 Mediapipe로의 전환을 통해 성능을 5~10배
+						개선했고, 동해선장 프로젝트에서는 다양한 외부 API 통합 과정의 난관을
+						돌파해나갔습니다. 개발 과정의 도전들은 저에게 언제나 새로운 배움의
+						기회였고, 이를 통해 한 단계 성장할 수 있었습니다.
 					</p>
 				</div>
 			</div>
